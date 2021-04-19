@@ -14,7 +14,7 @@ public class DockerfileDemoApplication {
 		SpringApplication.run(DockerfileDemoApplication.class, args);
 	}
 	
-	@RequestMapping("/docker")	
+	@RequestMapping("/docker") 	
 	public String getDocker() {
 		return "欢迎进入docker";
 	}
