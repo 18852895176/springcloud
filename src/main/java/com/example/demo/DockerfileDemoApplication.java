@@ -16,7 +16,7 @@ public class DockerfileDemoApplication {
 	
 	@RequestMapping("/docker") 	
 	public String getDocker() {
-		return "欢迎进入docker";
+		return "欢迎进入docker"; 
 	}
 
 }
